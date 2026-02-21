@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Debug The Code</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🐞 Debug The Code</h1>
+
+<div class="languages">
+<button onclick="setLanguage('c')">C</button>
+<button onclick="setLanguage('cpp')">C++</button>
+<button onclick="setLanguage('java')">Java</button>
+<button onclick="setLanguage('python')">Python</button>
+</div>
+
+<div class="levels">
+<button onclick="setLevel('easy')">Easy</button>
+<button onclick="setLevel('medium')">Medium</button>
+<button onclick="setLevel('hard')">Hard</button>
+</div>
+
+<div id="game">
+<div id="code-box"></div>
+<p id="result"></p>
+<button id="nextBtn">Next Question</button>
+<h2>Score: <span id="score">0</span></h2>
+<h3>High Score: <span id="highScore">0</span></h3>
+
+</div>
+
+<script src="questions.js" defer></script>
+
+<script src="game.js" defer></script>
+
+</body>
+</html>
